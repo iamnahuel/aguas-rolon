@@ -1,0 +1,163 @@
+* {
+	box-sizing: border-box;
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+
+
+body {
+	font-family: 'Orkney';
+	font-family: 'Orkney';
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Orkney';
+}
+/*********************estilo botones*********************/
+.botonesMenu{
+	display: block;
+	border: none;
+	
+}
+
+.bperfil{
+	width: 18%;
+	height: 18%;
+	border: none;
+	cursor: pointer;
+	margin: 3%;
+
+}
+/*********************estilos del header*********************/
+.header {
+	height: 60px;
+}
+.header .contenedor {
+	display: flex;
+	justify-content: space-between;
+}
+.logoAG {
+	margin:30px auto;
+	display:block;
+	width: 50%;
+	align-items: center;
+}
+
+
+icon-menu {
+	margin: 0px;
+	padding: 15px;
+	color: #fff;
+	
+}
+
+ 
+.logo {
+	padding: 20px;
+	color: #fff;
+	margin: 5px;
+}
+.icon-menu {
+	display: block;
+	width: 40px;
+	height: 35px;
+	font-size: 30px;
+	background: #0098DA;
+	color: #fff;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 5px;
+	margin-left: auto;
+	cursor: pointer;
+}
+.icon-menu1{
+	width: 25px;
+	height: 25px;
+	margin: 25px;
+	cursor: pointer;	
+}
+.ingresar {
+	margin: 25px;
+	cursor: pointer;
+}
+/*****************Estilos Menu*****************/
+.nav {
+	position: absolute;
+	top: 50px;
+	left: -100%;
+	width: 100%;
+	transition: all 0.5s;
+}
+
+.menu {
+	list-style: none;
+	padding: 20px;
+	margin: 0;
+}
+.menu__link {
+	display: block;
+	width: 20%;
+	padding: 15px;
+	background: #0098DA;
+	text-decoration: none;
+	color: #fff;
+}
+.menu__link:hover {
+	background: white;
+	color: #0098DA;
+}
+.mostrar {
+	left: 0;
+}
+
+/************Estilos del banner**************/
+.banner {
+	margin-top: -80px;
+	position: relative;
+	z-index: -1000;
+}
+.banner .contenedor {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-80%);
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
+.icon-tel, .icon-app, .icon-instagram, .icon-facebook, .icon-correo, .icon-whatsapp, .icon-ubicacion  {
+	width: 35px;
+	height: 35px;
+	margin: 10px;
+	margin-left: auto;
+	
+	cursor: pointer;
+}
+.icon-tel:hover, .icon-app:hover, .icon-instagram:hover, .icon-facebook:hover, .icon-correo:hover, .icon-whatsapp:hover, .icon-ubicacion:hover {
+	width: 45px;
+	height: 45px;
+	margin: 10px;
+	margin-left: auto;
+	cursor: pointer;
+}
+.iconos {
+	margin-top: -14%;
+}
+.banner__txt {
+	display: none;
+}
+.banner__titulo {
+	color: black;
+	font-size: 200%;
+}
+.piePagina, .contenedorTitulo {
+	display: block;
+	text-align: center;
+}
+.banner__img {
+	width: 100%;
+	height: -50%;
+}
